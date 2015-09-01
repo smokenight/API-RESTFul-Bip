@@ -44,11 +44,11 @@ El formato de respuesta de la API es JSON (JavaScript Object Notation)
 ##### Ejemplos para la ejecución de la API
 [Llamado a la API para consultar por el saldo de una tarjeta](http://bip.franciscocapone.com/api/getSaldo/19420273)
 
-<img src="http://bip.franciscocapone.com/ejemplo_uso.png" alt="Ejemplo llamado a API" width="1202" height="778" border="2" />
+<img src="http://bip.franciscocapone.com/ejemplo_uso.png" alt="Ejemplo llamado a API" />
 
 [Ejemplo de consumo de la API mediante una aplicación AngularJS](http://bip.franciscocapone.com/ejemplo/)
 
-<img src="http://bip.franciscocapone.com/ejemplo_app.png" alt="Ejemplo App AngularJS" width="670" height="455" border="2" />
+<img src="http://bip.franciscocapone.com/ejemplo_app.png" alt="Ejemplo App AngularJS" />
 
 ###### Links de referencia:
 [Framework PHP Slim](http://www.slimframework.com)
