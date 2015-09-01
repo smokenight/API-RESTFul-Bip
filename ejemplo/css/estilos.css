@@ -1,0 +1,117 @@
+/* 
+	Description: Hoja de estilos para prueba de API de obtención del saldo de una tarjeta BIP!
+	Version: 1
+	Author: Francisco Capone
+	Author Mail: francisco.capone@gmail.com
+	Author URI: http://www.franciscocapone.com
+*/
+
+/* Reset general */
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos cabecera sitio */
+header {
+	margin: 50px auto 0 auto;
+	width: 614px;
+	height: 190px;
+}
+
+.block {
+	width: 604px;
+	height: 190px;
+	background: url(../img/cabecera.jpg) no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+
+.block-wrapper {
+	position: relative;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.side-corner-tag-wrapper {
+	position: absolute;
+	display: inline;
+}
+
+.side-corner-tag-wrapper:before,
+.side-corner-tag-wrapper:after {
+	content: '';
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: -1;
+	border: 17px solid;
+}
+
+.side-corner-tag-wrapper:before {
+	top: -32px;
+	left: 70px;
+	border-color: transparent transparent #1e2b0a transparent;
+}
+
+.side-corner-tag-wrapper:after {
+	top: 68px;
+	left: -34px;
+	border-color: transparent #1e2b0a transparent transparent;
+}
+
+.side-corner-tag {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	left: -40px;
+	z-index: 999;
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	width: 150px;
+	line-height: 1.6em;
+	padding: 4px 10px;
+	text-align: center;
+	background-color: #FCB040;
+	color: #000;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+/* Estilos contenedor formulario */
+.contenedor_formulario {
+	text-align: center;
+	border-top: none;
+	border-bottom: 1px solid #2F698E;
+	border-left: 1px solid #2F698E;
+	border-right: 1px solid #2F698E;
+	width: 604px;
+	margin: 5px auto 0 auto;
+	height: 200px;
+}
+
+.contenedor_formulario form {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 83px;
+}
+
+/* Estilos tabla resultados */
+.tabla_resultados {
+	width: 604px;
+	margin: 5px auto 0 auto;
+}
+
+/* Estilos footer sitio */
+footer {
+	text-align: center;
+	color: #666;
+	font-size: 10px;
+}
+
+footer a:hover {
+	text-decoration: none;
+}

@@ -1,0 +1,29 @@
+<div class="row">
+	<header>
+		<div class="block-wrapper">
+			<div class="block">
+				<div class="side-corner-tag-wrapper">
+					<span class="side-corner-tag">TU SALDO!</span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="col-md-12" data-ng-show="'Object.keys(saldo).length > 0'">
+		<table class="table table-striped table-bordered tabla_resultados">
+			<thead>
+				<th>Nº de tarjeta</th>
+				<th>Estado de contrato</th>
+				<th>Saldo tarjeta</th>
+				<th>Fecha saldo</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td ng-repeat="datos in saldo">{{datos}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<footer>
+		<p>Proyecto experimental by <a href="mailto:francisco.capone@gmail.com">francisco.capone[at]gmail.com</a></p>
+	</footer>
+</div>
