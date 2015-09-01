@@ -11,7 +11,7 @@ var app = angular.module('saldoBip', ['ngRoute']);
 
 app.factory("services", ['$http',
 	function($http) {
-		var url_servicio = 'http://franciscocapone.com/bip/apiBip/';
+		var url_servicio = 'http://bip.franciscocapone.com/api/';
 		var obj = {};
 		obj.getSaldo = function(idTarjetaBip) {
 			return $http.get(url_servicio + 'getSaldo/' + idTarjetaBip);

@@ -72,6 +72,7 @@ class Bip extends AbstractCURL {
 					switch($name)
 					{
 						case 'N&Acirc;&ordm; tarjeta bip! ':
+						case 'N&ordm; tarjeta bip! ':
 							$name = 'numero_tarjeta';
 							break;
 
